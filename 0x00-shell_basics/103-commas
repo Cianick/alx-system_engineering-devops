@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -axm1 --group-directories-first
+ls -xamp
