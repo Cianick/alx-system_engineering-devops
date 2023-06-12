@@ -1,0 +1,7 @@
+for file in *; do
+  if [[ -f $file ]]; then
+    echo "#!/bin/bash" | tee -a "$file"
+  fi
+done
+
+#!/bin/bash
